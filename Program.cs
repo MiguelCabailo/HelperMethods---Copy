@@ -10,7 +10,8 @@ namespace HelperMethods
     {
         static void Main(string[] args)
         {
-            
+            HelloWorld.print("Hello world");
+
             Console.WriteLine("The Name Game");
   
             Console.Write("What's your first name? ");
@@ -108,5 +109,14 @@ namespace HelperMethods
             Console.WriteLine(String.Format(message));
         }
 
+    }
+
+    public class HelloWorld
+    {
+        public static void print(string anyString)
+        {
+            Console.Write(anyString);
+
+        }
     }
 }
